@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>OilDrop</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css" id="color-switcher-link">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<div class="widget widget_search">
+			<form method="get" class="searchform form-inline" action="/">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="theme_button">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+			<section class="page_toplogo cs table_section table_section_md section_padding_top_30 section_padding_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-lg-3 text-center text-md-left">
+							<a href="./" class="logo">
+								<img src="images/logo-light.png" alt="">
+								<span class="logo_text">
+									<span class="highlight kanit bold">Oildrop
+										<br> global</span>
+									<span class="small-text">test with the best</span>
+								</span>
+							</a>
+						</div>
+						<div class="col-md-2 col-lg-3 text-center text-md-left hidden-md">
+							<div class="media thin_teaser inline-block">
+								<div class="media-left media-middle">
+									<div class="teaser_icon border_icon round">
+										<i class="icon-map-marker highlight"></i>
+									</div>
+								</div>
+								<div class="media-body media-middle">
+									<p class="kanit text-uppercase bold fontsize_14">
+										Привод точки зажигания
+										<span class="highlight fontsize_18">27/2</span>
+										<br> Москва,
+										<span class="highlight">Inc -
+											<span class="fontsize_18">4502</span>
+										</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3 text-center text-md-left">
+							<div class="media thin_teaser inline-block">
+								<div class="media-left media-middle">
+									<div class="teaser_icon border_icon round">
+										<i class="icon-phone highlight"></i>
+									</div>
+								</div>
+								<div class="media-body media-middle">
+									<p class="kanit text-uppercase bold fontsize_14">
+										по всем вопросам
+										<br>
+										<span class="fontsize_18 highlight">+998 99 444 5599</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3 text-center text-md-left">
+							<a href="#" class="theme_button color1">заказать обратный звонок</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="intro_section page_mainslider cs">
+				<div class="flexslider">
+					<img src="images/intro_person.png" alt="" class="slide-person visible-lg-block to_animate" data-animation="fadeInRight">
+					<ul class="slides">
+						<li>
+							<img src="images/intro_bg.png" alt="" class="slide-bg">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer">
+													<p class="text-uppercase bold fontsize_14 highlight kanit">
+														Производство в мире
+													</p>
+													<h3 class="bold big">
+														Жизненно важные ресурсы <br> нефти и природного газа
+													</h3>
+													<p class="bold">Ознакомьтесь с нашей приверженностью к безопасности и устойчивости.</p>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li>
+							<img src="images/intro_bg2.png" alt="" class="slide-bg">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer">
+													<p class="text-uppercase bold fontsize_14 highlight kanit">
+														Наши проекты по всему миру
+													</p>
+													<h3 class="bold big">
+														Будущие технологии <br>
+														и инновации
+													</h3>
+													<p class="bold">Удовлетворять растущий мировой спрос на энергию и готовиться к будущему.</p>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li>
+							<img src="images/intro_bg.png" alt="" class="slide-bg">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer">
+													<p class="text-uppercase bold fontsize_14 highlight kanit">
+														Обеспечение на сегодня
+													</p>
+													<h3 class="bold big">
+														Будущие технологии <br>
+														и инновации
+													</h3>
+													<p class="bold">Узнайте, как Oildrop производит нефть и газ, необходимые для современной жизни.</p>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+					</ul>
+				</div>
+				<!-- eof flexslider -->
+			</section>
+
+			<header class="page_header cs main_color2 bordered_items columns_padding_0 toggle_menu_left not_hide_menuitems with_top_border">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-right">
+							<div class="menu-container">
+								<!-- main nav start -->
+								<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu">
+										<li class="active">
+											<a href="index.html">Главная</a>
+										</li>
+
+										<li>
+											<a href="about.html">О нас</a>
+										</li>
+										<!-- eof pages -->
+
+										<li>
+											<a href="services.html">Проекты</a>
+										</li>
+
+
+										<!-- eof features -->
+
+										<!-- blog -->
+										<li>
+											<a href="blog-right.html">Сервисы</a>
+										</li>
+										<!-- eof blog -->
+
+										<!-- contacts -->
+										<li>
+											<a href="contact.html">Отзывы</a>
+										</li>
+										<li>
+											<a href="contact.html">Контакты</a>
+										</li>
+										<!-- eof contacts -->
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+								<span class="toggle_menu">
+									<span></span>
+								</span>
+								<a href="#" class="theme_button color1 header-button">
+									<i class="icon-quote"></i>
+									<span>Связаться</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section class="ls section_padding_top_145 section_padding_bottom_90 columns_margin_bottom_60">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<h2 class="section_header">
+								О нас
+							</h2>
+							<hr class="divider_2_30 left-important main_bg_color divider_35">
+							<a href="about.html" class="theme_button color1 topmargin_10">Подробнее</a>
+						</div>
+						<div class="col-md-6">
+							<p class="entry-excerpt highlight2 bottommargin_30">
+								<a href="">Мы помогаем интересным компаниям создавать и улучшать отраслевые продукты и услуги посредством длительных и взаимовыгодных отношений.</a>
+							</p>
+							<p>
+								Мы работаем с нашими партнерами, чтобы оптимизировать планы проектов, которые не только обеспечивают безупречный продукт, но и обеспечивают своевременность, что имеет решающее значение для успеха на высококонкурентном рынке, где важен каждый день.
+							</p>
+						</div>
+						<div class="col-md-3">
+							<h5 class="bottommargin_0 roboto fontsize_18 bold letter-spacing0">Шелдон Купер</h5>
+							<p class="small-text highlight">Начальник отдела операций</p>
+							<hr class="divider_2_30 left-important main_bg_color divider_35">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ls ms section_padding_145">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3 text-center text-sm-left">
+							<h2 class="section_header">
+								Наши
+								<br>
+								<span class="highlight">проекты</span>
+							</h2>
+							<hr class="divider_2_30 left main_bg_color divider_35">
+							<img src="./images/map-scheme.png" alt="" class="topmargin_100 bottommargin_20">
+							<br>
+							<div class="media thin_teaser inline-block">
+								<div class="media-left media-middle">
+									<div class="teaser_icon border_icon round">
+										<i class="icon-mar-marker2"></i>
+									</div>
+								</div>
+								<div class="media-body media-middle">
+									<p class="kanit text-uppercase bold fontsize_14">
+										<span class="fontsize_18 highlight2">3560</span>
+										<br> completed projects
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
+							<div class="with_padding text-center cs main_color2 with_bottom_border">
+								<span class="image_icon">
+									<img src="./images/icon1.png" alt="">
+								</span>
+								<h3 class="highlight medium">Наше обязательство</h3>
+								<div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
+									<p>
+										<a href="#">Cтать ответственным энергетиком</a>
+									</p>
+									<p>
+										<a href="#">Защита людей</a>
+									</p>
+									<p>
+										<a href="#">Реагируя на экологические вызовы</a>
+									</p>
+									<p>
+										<a href="#">Помощь в совместном развитии</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
+							<div class="with_padding text-center cs main_color2 with_bottom_border">
+								<span class="image_icon">
+									<img src="./images/icon2.png" alt="">
+								</span>
+								<h3 class="highlight medium">Наша группа</h3>
+								<div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
+									<p>
+										<a href="#">Амбиция</a>
+									</p>
+									<p>
+										<a href="#">Эскизы</a>
+									</p>
+									<p>
+										<a href="#">Присутствие во всем мире</a>
+									</p>
+									<p>
+										<a href="#">Организация</a>
+									</p>
+									<p>
+										<a href="#">Корпоративное управление</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
+							<div class="with_padding text-center cs main_color2 with_bottom_border">
+								<span class="image_icon">
+									<img src="./images/icon3.png" alt="">
+								</span>
+								<h3 class="highlight medium">Наш опыт</h3>
+								<div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
+									<p>
+										<a href="#">Исследуй и производи</a>
+									</p>
+									<p>
+										<a href="#">Преобразование и развитие</a>
+									</p>
+									<p>
+										<a href="#">Корабль и рынок</a>
+									</p>
+									<p>
+										<a href="#">Проекты & amp; достижения</a>
+									</p>
+									<p class="black">
+										<a href="#">Корабль и рынок</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="cs main_color2 parallax page_info section_padding_bottom_40 section_padding_top_65">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center text-sm-left">
+							<h2 class="section_header">
+								Нефтяная компания
+								<br>
+								<span class="highlight">которая работает</span>
+							</h2>
+							<hr class="divider_2_30 left main_bg_color topmargin_30 bottommargin_15">
+						</div>
+					</div>
+					<div class="row columns_margin_bottom_30">
+						<div class="col-md-3 col-sm-6 text-center text-sm-left">
+							<div class="media thin_teaser inline-block">
+								<div class="media-left media-middle">
+									<div class="teaser_icon border_icon round">
+										<i class="icon-globe black"></i>
+									</div>
+								</div>
+								<div class="media-body media-middle">
+									<p class="kanit text-uppercase bold black fontsize_14">
+										<span class="fontsize_18 highlight">Расширяющийся поставщик</span>
+										<br>Промышленных решений
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 text-center text-sm-left">
+							<div class="media thin_teaser inline-block">
+								<div class="media-left media-middle">
+									<div class="teaser_icon border_icon round">
+										<i class="icon-certificate black"></i>
+									</div>
+								</div>
+								<div class="media-body media-middle">
+									<p class="kanit text-uppercase bold black fontsize_14">
+										<span class="fontsize_18 highlight">Глобальный сертификат</span>
+										<br> ISO 9001:2015
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 text-center text-sm-left">
+							<div class="media thin_teaser inline-block">
+								<div class="media-left media-middle">
+									<div class="teaser_icon border_icon round">
+										<i class="icon-award black"></i>
+									</div>
+								</div>
+								<div class="media-body media-middle">
+									<p class="kanit text-uppercase bold black fontsize_14">
+										<span class="fontsize_18 highlight">Награды</span>
+										<br> Решение года
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 text-center text-sm-left">
+							<div class="media thin_teaser inline-block">
+								<div class="media-left media-middle">
+									<div class="teaser_icon border_icon round">
+										<i class="icon-check black"></i>
+									</div>
+								</div>
+								<div class="media-body media-middle">
+									<p class="kanit text-uppercase bold black fontsize_14">
+										<span class="fontsize_18 highlight">Ведущий провайдер</span>
+										<br> газовой и нефтяной промышленности
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ls section_padding_top_145 section_padding_bottom_75 page_services">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 text-center text-sm-left">
+							<h2 class="section_header">
+								Что мы
+								<br>
+								<span class="highlight">можем предложить</span>
+							</h2>
+							<hr class="divider_2_30 left main_bg_color divider_35">
+						</div>
+						<div class="col-md-9">
+							<div class="row columns_margin_bottom_40 services-row">
+								<div class="col-sm-4 col-xs-6">
+									<div class="teaser">
+										<div class="main_bg_color2 size_normal round overlapped-icon">
+											<i class="icon-thermal-power highlight"></i>
+										</div>
+										<h4 class="text-uppercase">
+											<a href="service-singe.html">тепловая мощность</a>
+										</h4>
+										<hr class="divider_2_30 left main_bg_color">
+										<p>
+											С другой стороны, мы осуждаем с праведным негодованием и не любим людей, которые так обмануты.
+										</p>
+									</div>
+								</div>
+								<div class="col-sm-4 col-xs-6">
+									<div class="teaser">
+										<div class="main_bg_color2 size_normal round overlapped-icon">
+											<i class="icon-oil-platform highlight"></i>
+										</div>
+										<h4 class="text-uppercase">
+											<a href="service-singe.html">Нефтяная платформа</a>
+										</h4>
+										<hr class="divider_2_30 left main_bg_color">
+										<p>
+											Так ослеплены желанием, что не могут предвидеть боли и неприятностей, которые неизбежно последуют.
+										</p>
+									</div>
+								</div>
+								<div class="col-sm-4 col-xs-6">
+									<div class="teaser">
+										<div class="main_bg_color2 size_normal round overlapped-icon">
+											<i class="icon-gas-flaring highlight"></i>
+										</div>
+										<h4 class="text-uppercase">
+											<a href="service-singe.html">Сжигание газа</a>
+										</h4>
+										<hr class="divider_2_30 left main_bg_color">
+										<p>
+											Тем, кто не выполняет свой долг из-за слабости воли, что равносильно тяжелому труду и боли.
+										</p>
+									</div>
+								</div>
+								<div class="col-sm-4 col-xs-6">
+									<div class="teaser">
+										<div class="main_bg_color2 size_normal round overlapped-icon">
+											<i class="icon-oil-pump highlight"></i>
+										</div>
+										<h4 class="text-uppercase">
+											<a href="service-singe.html">Масляный насос</a>
+										</h4>
+										<hr class="divider_2_30 left main_bg_color">
+										<p>
+											Он отвергает удовольствия, чтобы получить другие большие удовольствия, или терпит усилия, чтобы избежать.
+										</p>
+									</div>
+								</div>
+								<div class="col-sm-4 col-xs-6">
+									<div class="teaser">
+										<div class="main_bg_color2 size_normal round overlapped-icon">
+											<i class="icon-oil-refinery highlight"></i>
+										</div>
+										<h4 class="text-uppercase">
+											<a href="service-singe.html">Нефтеперегонный завод</a>
+										</h4>
+										<hr class="divider_2_30 left main_bg_color">
+										<p>
+											Когда наша сила выбора не ограничена и когда ничто не мешает нам делать то же самое.
+										</p>
+									</div>
+								</div>
+								<div class="col-sm-4 col-xs-6">
+									<div class="teaser">
+										<div class="main_bg_color2 size_normal round overlapped-icon">
+											<i class="icon-factory highlight"></i>
+										</div>
+										<h4 class="text-uppercase">
+											<a href="service-singe.html">Завод</a>
+										</h4>
+										<hr class="divider_2_30 left main_bg_color">
+										<p>
+											Обязательства по ведению бизнеса часто связаны с отказом от удовольствий и раздражений.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+<!--					<div class="row columns_margin_0">-->
+<!--						<div class="col-sm-12 text-center text-sm-left">-->
+<!--							<a href="services.html" class="theme_button color1 services_button">View all services</a>-->
+<!--						</div>-->
+<!--					</div>-->
+				</div>
+			</section>
+
+			<section class="cs main_color2 section_padding_top_145 section_padding_bottom_130 columns_margin_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8 text-center text-sm-left">
+							<h2 class="section_header">
+								Наш блог
+							</h2>
+							<hr class="divider_2_30 left main_bg_color topmargin_30">
+							<div class="inline-block bottommargin_50">
+								<ul class="list1 middle-borders margin_0 bold greylinks">
+									<li>
+										<a href="#">Химия и продукты рафинирование</a>
+									</li>
+									<li>
+										<a href="#">Международная торговля</a>
+									</li>
+									<li>
+										<a href="#">Петролиум Инжиниринг</a>
+									</li>
+									<li>
+										<a href="#">Проекты &amp; достижения</a>
+									</li>
+									<li>
+										<a href="#">Исследуйте &amp; Производить</a>
+									</li>
+									<li>
+										<a href="#">Преобразовать &amp; развивать</a>
+									</li>
+								</ul>
+							</div>
+							<br>
+<!--							<a href="services.html" class="theme_button color1">Go to our blog</a>-->
+						</div>
+						<div class="col-lg-3 col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
+							<article class="vertical-item content-padding ls with_bottom_border topmargin_10">
+								<div class="item-media">
+									<img src="./images/blog_post1.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="./images/blog_post1.jpg"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<div class="categories-links small-text big-spacing">
+										<a href="#">Химия и продукты рафинирование</a>
+									</div>
+									<h3 class="entry-title">
+										<a href="blog-single-right.html">Энергия для мира</a>
+									</h3>
+									<p>
+										Ослепленные желанием, они могут столкнуться с болью и неприятностями, в которых непременно виноваты.
+									</p>
+								</div>
+							</article>
+						</div>
+						<div class="col-lg-3 col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
+							<article class="vertical-item content-padding ls with_bottom_border topmargin_10">
+								<div class="item-media">
+									<img src="./images/blog_post2.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="./images/blog_post2.jpg"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<div class="categories-links small-text big-spacing">
+										<a href="#">Международная торговля</a>
+									</div>
+									<h3 class="entry-title">
+										<a href="blog-single-right.html">Светлое завтра начинается сегодня</a>
+									</h3>
+									<p>
+										С другой стороны, высказывайтесь с праведным негодованием.
+									</p>
+								</div>
+							</article>
+						</div>
+						<div class="col-lg-3 col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
+							<article class="vertical-item content-padding ls with_bottom_border topmargin_10">
+								<div class="item-media">
+									<img src="./images/blog_post3.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="./images/blog_post3.jpg"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<div class="categories-links small-text big-spacing">
+										<a href="#">Петролиум Инжиниринг</a>
+									</div>
+									<h3 class="entry-title">
+										<a href="blog-single-right.html">Власть будущего</a>
+									</h3>
+									<p>
+										Ослепленные желанием, они могут столкнуться с болью и неприятностями, в которых непременно виноваты.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ls ms section_padding_top_160 section_padding_bottom_130">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-lg-3 text-center text-sm-left">
+							<h2 class="section_header">
+								Отзывы
+							</h2>
+							<hr class="divider_2_30 left main_bg_color divider_35">
+						</div>
+						<div class="col-md-8 col-lg-9 topmargin_0">
+							<div class="owl-carousel" data-responsive-lg="3" data-responsive-md="2" data-dots="true" data-dots-container="#testimonials-dots">
+								<blockquote class="blockquote-item">
+									<div class="media">
+										<div class="media-left media-middle">
+											<div class="item-media">
+												<img src="./images/faces/01.jpg" alt="">
+												<div class="media-links">
+													<div class="links-wrap">
+														<a class="p-view" title="" href="team-single.html"></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<a href="#">
+												<h4>Sheldon Moreno</h4>
+												<p class="highlight bold text-uppercase kanit">Head of Operations</p>
+											</a>
+										</div>
+									</div>
+									<hr class="divider_2_30 left-important main_bg_color">
+									<p>
+										Untrammelled and nothing prevents our being able to do what we like best, every pleasure.
+									</p>
+								</blockquote>
+
+								<blockquote class="blockquote-item">
+									<div class="media">
+										<div class="media-left media-middle">
+											<div class="item-media">
+												<img src="./images/faces/02.jpg" alt="">
+												<div class="media-links">
+													<div class="links-wrap">
+														<a class="p-view" title="" href="team-single.html"></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<a href="#">
+												<h4>Mike Banbridge</h4>
+												<p class="highlight bold text-uppercase kanit">Consultant</p>
+											</a>
+										</div>
+									</div>
+									<hr class="divider_2_30 left-important main_bg_color">
+									<p>
+										But in certain circumstances and owing to the claims of duty or the obligations business it will frequently.
+									</p>
+								</blockquote>
+
+								<blockquote class="blockquote-item">
+									<div class="media">
+										<div class="media-left media-middle">
+											<div class="item-media">
+												<img src="./images/faces/03.jpg" alt="">
+												<div class="media-links">
+													<div class="links-wrap">
+														<a class="p-view" title="" href="team-single.html"></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<a href="#">
+												<h4>Claudia Ortiz</h4>
+												<p class="highlight bold text-uppercase kanit">Customer Relations</p>
+											</a>
+										</div>
+									</div>
+									<hr class="divider_2_30 left-important main_bg_color">
+									<p>
+										These cases are perfectly simple and easy to distinguish. In a free hour, our power of choice.
+									</p>
+								</blockquote>
+
+
+								<blockquote class="blockquote-item">
+									<div class="media">
+										<div class="media-left media-middle">
+											<div class="item-media">
+												<img src="./images/faces/01.jpg" alt="">
+												<div class="media-links">
+													<div class="links-wrap">
+														<a class="p-view" title="" href="team-single.html"></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<a href="#">
+												<h4>Sheldon Moreno</h4>
+												<p class="highlight bold text-uppercase kanit">Head of Operations</p>
+											</a>
+										</div>
+									</div>
+									<hr class="divider_2_30 left-important main_bg_color">
+									<p>
+										Untrammelled and nothing prevents our being able to do what we like best, every pleasure.
+									</p>
+								</blockquote>
+
+								<blockquote class="blockquote-item">
+									<div class="media">
+										<div class="media-left media-middle">
+											<div class="item-media">
+												<img src="./images/faces/02.jpg" alt="">
+												<div class="media-links">
+													<div class="links-wrap">
+														<a class="p-view" title="" href="team-single.html"></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<a href="#">
+												<h4>Mike Banbridge</h4>
+												<p class="highlight bold text-uppercase kanit">Consultant</p>
+											</a>
+										</div>
+									</div>
+									<hr class="divider_2_30 left-important main_bg_color">
+									<p>
+										But in certain circumstances and owing to the claims of duty or the obligations business it will frequently.
+									</p>
+								</blockquote>
+
+								<blockquote class="blockquote-item">
+									<div class="media">
+										<div class="media-left media-middle">
+											<div class="item-media">
+												<img src="./images/faces/03.jpg" alt="">
+												<div class="media-links">
+													<div class="links-wrap">
+														<a class="p-view" title="" href="team-single.html"></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<a href="#">
+												<h4>Claudia Ortiz</h4>
+												<p class="highlight bold text-uppercase kanit">Customer Relations</p>
+											</a>
+										</div>
+									</div>
+									<hr class="divider_2_30 left-important main_bg_color">
+									<p>
+										These cases are perfectly simple and easy to distinguish. In a free hour, our power of choice.
+									</p>
+								</blockquote>
+
+
+								<blockquote class="blockquote-item">
+									<div class="media">
+										<div class="media-left media-middle">
+											<div class="item-media">
+												<img src="./images/faces/01.jpg" alt="">
+												<div class="media-links">
+													<div class="links-wrap">
+														<a class="p-view" title="" href="team-single.html"></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<a href="#">
+												<h4>Sheldon Moreno</h4>
+												<p class="highlight bold text-uppercase kanit">Head of Operations</p>
+											</a>
+										</div>
+									</div>
+									<hr class="divider_2_30 left-important main_bg_color">
+									<p>
+										Untrammelled and nothing prevents our being able to do what we like best, every pleasure.
+									</p>
+								</blockquote>
+
+								<blockquote class="blockquote-item">
+									<div class="media">
+										<div class="media-left media-middle">
+											<div class="item-media">
+												<img src="./images/faces/02.jpg" alt="">
+												<div class="media-links">
+													<div class="links-wrap">
+														<a class="p-view" title="" href="team-single.html"></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<a href="#">
+												<h4>Mike Banbridge</h4>
+												<p class="highlight bold text-uppercase kanit">Consultant</p>
+											</a>
+										</div>
+									</div>
+									<hr class="divider_2_30 left-important main_bg_color">
+									<p>
+										But in certain circumstances and owing to the claims of duty or the obligations business it will frequently.
+									</p>
+								</blockquote>
+
+								<blockquote class="blockquote-item">
+									<div class="media">
+										<div class="media-left media-middle">
+											<div class="item-media">
+												<img src="./images/faces/03.jpg" alt="">
+												<div class="media-links">
+													<div class="links-wrap">
+														<a class="p-view" title="" href="team-single.html"></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<a href="#">
+												<h4>Claudia Ortiz</h4>
+												<p class="highlight bold text-uppercase kanit">Customer Relations</p>
+											</a>
+										</div>
+									</div>
+									<hr class="divider_2_30 left-important main_bg_color">
+									<p>
+										These cases are perfectly simple and easy to distinguish. In a free hour, our power of choice.
+									</p>
+								</blockquote>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="row columns_margin_0">
+						<div class="col-sm-12 text-center text-md-left">
+							<div id="testimonials-dots" class="owl-dots topmargin_30"></div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<section class="ls section_padding_145">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-lg-3">
+							<h2 class="section_header highlight">
+								Обратная связь
+							</h2>
+							<hr class="divider_2_30 left-important main_bg_color divider_35">
+						</div>
+						<div class="col-md-8 col-lg-9">
+							<p class="entry-excerpt highlight2 bottommargin_30">
+								<a href="">Нам всегда интересны новые проекты, большие или маленькие. Не стесняйтесь обращаться к нам по поводу вашего проекта.</a>
+							</p>
+							<p>
+								Если вы хотите связаться с нами по любому вопросу, позвоните
+								<a class="kanit fontsize_18 highlight bold" href="#">+998 99 444 5599</a> or
+								<a href="#" class="bold highlight underlined">Отправить нам письмо</a>. Если вы хотите вынести предложение на рассмотрение просто
+								<a href="#" class="bold highlight underlined">получить цитату</a>.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+<!--			<section class="cs main_color2 parallax section_subscribe section_padding_50">-->
+<!--				<div class="container">-->
+<!--					<div class="row">-->
+<!--						<div class="col-md-3">-->
+<!--							<h2 class="section_header">-->
+<!--								Newsletter-->
+<!--							</h2>-->
+<!--							<hr class="divider_2_30 left-important main_bg_color topmargin_30">-->
+<!--						</div>-->
+<!--						<div class="col-md-9">-->
+<!--							<div class="widget widget_mailchimp">-->
+<!--								<p class="roboto fontsize_18 bold black bottommargin_5">-->
+<!--									Subscribe to our newsletters to receive latest news and updates-->
+<!--								</p>-->
+<!--								<form class="signup row columns_padding_10" action="/" method="get">-->
+<!--									<div class="col-lg-8 col-md-7">-->
+<!--										<div class="form-group">-->
+<!--											<input class="mailchimp_email form-control" name="email" type="email" placeholder="Your email address">-->
+<!--										</div>-->
+<!--										<div class="response"></div>-->
+<!--									</div>-->
+<!--									<div class="col-lg-4 col-md-5">-->
+<!--										<button type="submit" class="theme_button color1">subscribe to newsletter</button>-->
+<!--									</div>-->
+<!--								</form>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</section>-->
+
+			<section class="ls ms section_padding_50">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="owl-carousel partners-carousel" data-responsive-lg="6" data-responsive-md="5" data-responsive-sm="3" data-responsive-xs="2" data-margin="0">
+								<a href="">
+									<img src="./images/partners/1.png" alt="">
+								</a>
+								<a href="">
+									<img src="./images/partners/2.png" alt="">
+								</a>
+								<a href="">
+									<img src="./images/partners/3.png" alt="">
+								</a>
+								<a href="">
+									<img src="./images/partners/4.png" alt="">
+								</a>
+								<a href="">
+									<img src="./images/partners/5.png" alt="">
+								</a>
+								<a href="">
+									<img src="./images/partners/6.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+<!--			<section id="map" class="ls page_map" data-address="40 Blandford St Marylebone, London">-->
+<!--				<div class="map_marker_description">-->
+<!--					<h3>Map Title</h3>-->
+<!--					<p>Map description text</p>-->
+<!--					<img class="map_marker_icon" src="images/map_marker_icon.png" alt="">-->
+<!--				</div>-->
+<!--			</section>-->
+
+			<footer class="page_footer cs main_color2 section_padding_top_30 columns_margin_0" style="padding-top: 110px">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-4">
+							<a href="./" class="logo">
+								<img src="images/logo.png" alt="">
+								<span class="logo_text">
+									<span class="highlight kanit bold">Oildrop
+										<br> global</span>
+									<span class="small-text">test with the best</span>
+								</span>
+							</a>
+							<p class="topmargin_30">
+								Каждый день - это новый день для нас, и мы очень много работаем, чтобы везде удовлетворить наших клиентов.
+							</p>
+							<div class="page_social_icons greylinks">
+								<a class="social-icon border-icon rounded-icon soc-facebook" href="#" title="Facebook"></a>
+								<a class="social-icon border-icon rounded-icon soc-twitter" href="#" title="Twitter"></a>
+								<a class="social-icon border-icon rounded-icon soc-youtube" href="#" title="Youtube"></a>
+								<a class="social-icon border-icon rounded-icon soc-google" href="#" title="Google"></a>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-8">
+							<div class="ls with_padding footer_form">
+								<h2 class="section_header bottommargin_30 text-center">Связатся</h2>
+								<form class="contact-form row columns_margin_0 columns_padding_20" method="post" action="/">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<label for="name">Full Name
+												<span class="required">*</span>
+											</label>
+											<input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Ваше имя">
+										</div>
+										<div class="form-group">
+											<label for="email">Email address
+												<span class="required">*</span>
+											</label>
+											<input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Ваша почта">
+										</div>
+										<div class="form-group">
+											<label for="phone">Phone number
+												<span class="required">*</span>
+											</label>
+											<input type="text" size="30" value="" name="phone" id="phone" class="form-control" placeholder="Ваш номер телефона">
+										</div>
+										<div class="form-group">
+											<label for="company-name">Company name
+												<span class="required">*</span>
+											</label>
+											<input type="text" size="30" value="" name="company-name" id="company-name" class="form-control" placeholder="Названия компании">
+										</div>
+										<div class="form-group">
+											<label for="title">Project title
+												<span class="required">*</span>
+											</label>
+											<input type="text" size="30" value="" name="title" id="title" class="form-control" placeholder="Название Проекта">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<label for="message">Message</label>
+											<textarea aria-required="true" rows="15" cols="45" name="message" id="message" class="form-control" placeholder="Сообщение"></textarea>
+										</div>
+										<button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button color1 margin_0">Отправить</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="col-lg-offset-0 col-lg-3 col-md-offset-2 col-md-8">
+							<div class="row topmargin_40">
+								<div class="col-lg-12 col-md-6">
+									<div class="media thin_teaser inline-block bottommargin_20">
+										<div class="media-left media-middle">
+											<div class="teaser_icon border_icon round">
+												<i class="icon-phone black"></i>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<p class="kanit text-uppercase bold highlight fontsize_14">
+												Телефонный звонок от
+												<br>
+												<span class="fontsize_18 black">одного из наших консультантов</span>
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-12 col-md-6">
+									<div class="media thin_teaser inline-block bottommargin_20">
+										<div class="media-left media-middle">
+											<div class="teaser_icon border_icon round">
+												<i class="icon-calculator black"></i>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<p class="kanit text-uppercase bold highlight fontsize_14">
+												Оценка
+												<br>
+												<span class="fontsize_18 black">стоимости вашего проекта</span>
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-12 col-md-6">
+									<div class="media thin_teaser inline-block bottommargin_20">
+										<div class="media-left media-middle">
+											<div class="teaser_icon border_icon round">
+												<i class="icon-meetings black"></i>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<p class="kanit text-uppercase bold highlight fontsize_14">
+												Личная встреча для
+												<br>
+												<span class="fontsize_18 black">обсуждения деталей</span>
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-12 col-md-6">
+									<div class="media thin_teaser inline-block bottommargin_20">
+										<div class="media-left media-middle">
+											<div class="teaser_icon border_icon round">
+												<i class="icon-lock black"></i>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<p class="kanit text-uppercase bold highlight fontsize_14">
+												Детали в безопасности и
+												<br>
+												<span class="fontsize_18 black">конфиденциальность гарантирована</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<section class="page_copyright cs main_color2 table_section section_padding_top_30 section_padding_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 text-center">
+							<p class="bold fontsize_12 text-uppercase kanit">Oildrop &copy; 2016.
+								<span class="black">Created with</span>
+								<a href="http://modernwebtemplates.com">
+									<i class="icon-heart highlight fontsize_14"></i> by gunneraza</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+
+
+	<!-- Google Map Script -->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTwYSMRGuTsmfl2z_zZDStYqMlKtrybxo"></script>
+</body>
+
+</html>
