@@ -10823,3 +10823,43 @@ isotope portfolio and gallery pos
 .isotope-item[class*='col-'] {
 	margin-top: 0;
 }
+
+.header-button i {
+	font-size: 24px;
+}
+
+.products {
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+}
+
+.product {
+	width: 25%;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #30355d;
+	padding: 10px;
+	transition: 300ms ease;
+}
+
+.product:hover {
+	box-shadow: 2px 3px 10px rgba(0,0,0,0.3);
+}
+
+.product__icon {
+	margin-bottom: 10px;
+}
+
+.product__icon svg {
+	width: 90px;
+	height: 90px;
+	fill: #0eb0ee;
+}
+
+.product__title {
+	font-weight: 600;
+	font-size: 16px;
+}
